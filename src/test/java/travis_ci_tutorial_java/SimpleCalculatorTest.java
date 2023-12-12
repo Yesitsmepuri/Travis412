@@ -29,6 +29,11 @@ public class SimpleCalculatorTest {
 	        int result = calculator.divide(10, 2);
 	        assertEquals(5, result);
 	    }
+	@Test
+    public void testDivideByZero() {
+        SimpleCalculator calculator = new SimpleCalculator();
+        assertThrows(ArithmeticException.class, () -> calculator.divide(10, 0));
+    }
 	}
 
 
