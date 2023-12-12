@@ -11,4 +11,9 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.add(1, 1), 2);
 	}
+	public void testSubtraction() {
+	    SimpleCalculator calculator = new SimpleCalculator();
+	    int result = calculator.subtract(5, 3);
+	    assertEquals(2, result);
+	}
 }
