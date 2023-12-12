@@ -16,5 +16,5 @@ public class SimpleCalculatorTest {
 	    int result = calculator.subtract(5, 3);
 	    assertEquals(2, result);
 	}
-	
+}
 	
